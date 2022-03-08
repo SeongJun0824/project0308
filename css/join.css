@@ -45,7 +45,7 @@
     padding: 10px 0;
 }
 .register .inner-register .sign-up .sign-up-con .sign-up-form form ul{
-}
+    }
 .register .inner-register .sign-up .sign-up-con .sign-up-form form ul li{
     line-height: 40px;
     /* border: 1px solid; */
@@ -129,12 +129,18 @@
     .register .inner-register .sign-up .sign-up-con .sign-up-form form ul li label{
         font-size: 12px;
     }
+    .register .inner-register .sign-up .sign-up-con .sign-up-form form ul li.li4 .sub1{
+        font-size: 12px;
+    }
 }
 @media only screen and (max-width:640px){
     .register .inner-register .sign-up .sign-up-con{
         font-size: 10px;
     }
     .register .inner-register .sign-up .sign-up-con .sign-up-form form ul li label{
+        font-size: 10px;
+    }
+    .register .inner-register .sign-up .sign-up-con .sign-up-form form ul li.li4 .sub1{
         font-size: 10px;
     }
 }
